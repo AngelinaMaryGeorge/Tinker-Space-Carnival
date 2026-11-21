@@ -34,7 +34,7 @@ A first-timer solders 9 easy through-hole components and 1 wide-pitch USB-A plug
 - [x] Manufacturable by Lion Circuits (checked against their capabilities)
 - [x] Schematic in `schematic/` (PDF + source files)
 - [x] Gerbers zipped in `gerber/`
-- [x] Render or photo in `images/`
+- [x] Render or photo(s) in `images/`
 
 **BOM total per badge:** ₹34.39 (300 badge order)
 

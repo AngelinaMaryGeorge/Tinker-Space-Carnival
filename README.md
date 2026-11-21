@@ -36,7 +36,7 @@ A first-timer solders 9 easy through-hole components and 1 wide-pitch USB-A plug
 - [x] Gerbers zipped in `gerber/`
 - [x] Render or photo in `images/`
 
-**BOM total per badge:** ₹__
+**BOM total per badge:** ₹34.39 (300 badge order)
 
 ## Files
 

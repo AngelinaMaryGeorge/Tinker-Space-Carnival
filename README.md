@@ -10,31 +10,31 @@ Below is the example Readme.md
 
 ## The idea
 
-What is your badge, and what does it do? One or two short paragraphs.
+A compact 40 × 40 mm USB-A powered badge that alternates a Blue and Red LED using a classic NE555P timer, while doubling as a pocket millimeter ruler along its edge for everyday desk use.
 
 ## Theme
 
-How does it represent local maker culture: Kerala, Kochi, our communities, our language, our stories?
+It celebrates Kochi and Kerala's resourceful, hands-on maker culture by turning a frugal, classic analog circuit into a practical keepsake tool built for everyday tinkering at TinkerSpace.
 
 ## How it works
 
-- **Power:** 3 V coin cell / USB / other
-- **Main parts:** e.g. 2 × RGB LED, CH552, 555 timer…
-- **What happens when you power it:**
+- **Power:** 5 V USB (horizontal male USB-A plug)
+- **Main parts:** 1 × NE555P timer IC (DIP-8), 2 × 5 mm LEDs (Blue & Red), 4 × through-hole resistors (2 × 330 Ω, 1 × 1 kΩ, 1 × 150 kΩ), 2 × capacitors (10 µF, 10 nF), 1 × USB-A male plug
+- **What happens when you power it:** Plugging it into any USB-A port, laptop, or power bank runs the NE555P in astable mode, causing the Blue and Red LEDs to blink alternately.
 
 ## Soldering experience
 
-What does a first-timer solder, and roughly how long does it take? (Target: 15–20 minutes, through-hole recommended.)
+A first-timer solders 9 easy through-hole components and 1 wide-pitch USB-A plug in about 15–20 minutes.
 
 ## Checklist
 
-- [ ] Board fits within 40 × 40 mm
-- [ ] Total BOM under ₹50 per badge, including the PCB and battery (see `bom.csv`)
-- [ ] Every BOM row has quantity, unit price at 300 units and a source link
-- [ ] Manufacturable by Lion Circuits (checked against their capabilities)
-- [ ] Schematic in `schematic/` (PDF + source files)
-- [ ] Gerbers zipped in `gerber/`
-- [ ] Render or photo in `images/`
+- [x] Board fits within 40 × 40 mm
+- [x] Total BOM under ₹50 per badge, including the PCB and battery (see `bom.csv`)
+- [x] Every BOM row has quantity, unit price at 300 units and a source link
+- [x] Manufacturable by Lion Circuits (checked against their capabilities)
+- [x] Schematic in `schematic/` (PDF + source files)
+- [x] Gerbers zipped in `gerber/`
+- [x] Render or photo in `images/`
 
 **BOM total per badge:** ₹__
 
@@ -42,17 +42,11 @@ What does a first-timer solder, and roughly how long does it take? (Target: 15�
 
 | Folder / file | What goes in it |
 | --- | --- |
-| `schematic/` | Schematic as PDF, plus the source files from your EDA tool (EasyEDA / KiCad / Fusion) |
-| `gerber/` | A single zip of your Gerber and drill files, ready for Lion Circuits |
-| `bom.csv` | One row per part: quantity, unit price at 300 units (₹) and a source link |
-| `images/` | A 3D render or photo of the badge, front and back if you can |
-
-## Submit
-
-Push everything to this repo, keep it **public**, and submit the repo link on the TinkerHub app before **21 November 2026**.
-
-Need an example? Last year's badge is laid out the same way: https://github.com/salmanfarisvp/space-carnival-badge-2025
+| `schematic/` | KiCad schematic PDF (`Carnival.pdf`) and source files (`Carnival.kicad_sch`, `Carnival.kicad_pcb`) |
+| `gerber/` | Zipped Gerber and Excellon drill files ready for Lion Circuits |
+| `bom.csv` | Component list with quantities, 300-unit prices (₹), and source links |
+| `images/` | 3D front and back renders of the badge (plus Lion Circuits quote screenshot) |
 
 ## License
 
-Pick an open license for your design (MIT, CERN-OHL or CC BY-SA are common for hardware) and add a `LICENSE` file.
+MIT License (see `LICENSE` file).

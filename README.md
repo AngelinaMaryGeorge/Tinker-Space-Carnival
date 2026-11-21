@@ -14,7 +14,7 @@ A compact 40 × 40 mm USB-A powered badge that alternates a Blue and Red LED usi
 
 ## Theme
 
-It celebrates Kochi and Kerala's resourceful, hands-on maker culture by turning a frugal, classic analog circuit into a practical keepsake tool built for everyday tinkering at TinkerSpace.
+It celebrates Kochi and Kerala's resourceful, hands-on maker culture by turning a classic analog circuit into a practical keepsake tool built for tinkering at TinkerSpace.
 
 ## How it works
 
@@ -24,7 +24,7 @@ It celebrates Kochi and Kerala's resourceful, hands-on maker culture by turning 
 
 ## Soldering experience
 
-A first-timer solders 9 easy through-hole components and 1 wide-pitch USB-A plug in about 15–20 minutes.
+To solder: 9 easy through-hole components and 1 wide-pitch USB-A plug in about 15–20 minutes.
 
 ## Checklist
 
@@ -37,6 +37,7 @@ A first-timer solders 9 easy through-hole components and 1 wide-pitch USB-A plug
 - [x] Render or photo(s) in `images/`
 
 **BOM total per badge:** ₹34.39 (300 badge order)
+![Lion Circuits Quote](images/LionCircuits_Quote.png)
 
 ## Files
 

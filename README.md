@@ -1,5 +1,4 @@
-# Badge Name: Visa
-Below is the example Readme.md
+# Badge Name: Red-blue
 
 > Space Carnival 2026 — PCB Badge Design Competition entry.
 > Competition guide: https://space-carnival-psi.vercel.app/badge/
